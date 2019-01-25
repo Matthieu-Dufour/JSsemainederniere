@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+    <div id="application">
+        <p>afficher une variable javascript : {{variableExemple}}</p>
+    </div>
+
+
+    <script>
+        var app = new Vue({
+            el: '#application',
+            data: {
+                variableExemple: 'peu mieux faire !'
+            }
+
+        })
+    </script>
+</body>
+
+</html>

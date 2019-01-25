@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 6px;
+}
+
+p, div {
+    font-family: 'Raleway', sans-serif;
+}
+
+#meteo {
+    margin: 10px 100px;
+    background-color: #EEE;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+#meteo p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AAA;
+}
+
+#weathericon{
+    float: right;
+}
